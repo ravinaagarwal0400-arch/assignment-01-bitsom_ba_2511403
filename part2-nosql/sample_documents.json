@@ -1,0 +1,54 @@
+[
+  {
+    "_id": "ELEC001",
+    "name": "Samsung 55-inch 4K Smart TV",
+    "category": "Electronics",
+    "brand": "Samsung",
+    "price": 54999,
+    "specifications": {
+      "resolution": "4K",
+      "screen_size": "55 inch",
+      "voltage": "220V",
+      "smart_tv": true
+    },
+    "warranty": {
+      "period_years": 2,
+      "type": "Manufacturer"
+    },
+    "ratings": [4.5, 4.7, 4.6],
+    "stock": 25
+  },
+  {
+    "_id": "CLOT001",
+    "name": "Men's Casual Shirt",
+    "category": "Clothing",
+    "brand": "Allen Solly",
+    "price": 1899,
+    "attributes": {
+      "size": ["S", "M", "L", "XL"],
+      "color": "Blue",
+      "material": "Cotton",
+      "fit": "Regular"
+    },
+    "variants": [
+      { "size": "M", "stock": 10 },
+      { "size": "L", "stock": 15 }
+    ],
+    "ratings": [4.2, 4.0, 4.3]
+  },
+  {
+    "_id": "GROC001",
+    "name": "Organic Milk 1L",
+    "category": "Groceries",
+    "brand": "Amul",
+    "price": 65,
+    "expiry_date": "2024-12-30",
+    "nutritional_info": {
+      "calories": 150,
+      "protein": "8g",
+      "fat": "8g"
+    },
+    "storage_instructions": "Keep refrigerated",
+    "stock": 100
+  }
+]
